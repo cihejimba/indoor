@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Green">#ff4AD953</color>
+    <color name="Red">#ffff0000</color>
+    <color name="bground">#ffD4FFFE</color>
+    <color name="black">#ff000000</color>
+    <color name="blue">#ff0000ff</color>
+    <color name="cyan">#ff00ffff</color>
+    <color name="darkgray">#938192</color>
+    <color name="dkgray">#80808FF0</color>
+    <color name="gray">#ff888888</color>
+    <color name="lightgreen">#7cd12e</color>
+    <color name="ligthblue">#ff62CCF0</color>
+    <color name="ltergray">#FFEdEdEd</color>
+    <color name="ltgray">#ffcccccc</color>
+    <color name="magenta">#ffff00ff</color>
+    <color name="mylocation">#1FFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yello">#F8F8FF00</color>
+    <color name="yellow">#ffffff00</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="aboutSystem">关于系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">巡检助手Plus</string>
+    <string name="ble_not_supported">不支持BLE设备</string>
+    <string name="btnShowBeacon">显示Beacon</string>
+    <string name="btnStartContent">开始巡检</string>
+    <string name="btnStartUpload">上传报告</string>
+    <string name="btnStarting">结束巡检</string>
+    <string name="btnUpdatding">正在更新数据</string>
+    <string name="btnUpdateContent">更新数据</string>
+    <string name="btnUploadding">正在上传数据</string>
+    <string name="cancel">取消</string>
+    <string name="city">城市</string>
+    <string name="companyName">公司名称</string>
+    <string name="companyNameHint">请输入所在公司名称</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hostUrl">http://115.28.164.238/androidServer</string>
+    <string name="indoorLocation">室内定位</string>
+    <string name="inspect">巡检</string>
+    <string name="inspect_title">主界面</string>
+    <string name="login">登录</string>
+    <string name="loginPassWordHint">请输入密码</string>
+    <string name="logout">注销登录</string>
+    <string name="passWord">密码</string>
+    <string name="passWordAgain">确认密码</string>
+    <string name="passWordHint">请输入6-16个字符</string>
+    <string name="passWordHintAgain">请确认密码</string>
+    <string name="province">省份</string>
+    <string name="register">注册</string>
+    <string name="serverurl">http://115.28.164.238/androidServer/location/uploadIndoorRecord</string>
+    <string name="setting">设置</string>
+    <string name="setting_title">设置</string>
+    <string name="speedtest">是否开启测速</string>
+    <string name="system_setting">系统设置</string>
+    <string name="trainData">训练数据</string>
+    <string name="traindataGet">记录</string>
+    <string name="traindataMarker">地理位置标签</string>
+    <string name="traindataMarkerHint">请输入</string>
+    <string name="traindataNearest">最近的蓝牙设备</string>
+    <string name="traindataPositionX">位置坐标X</string>
+    <string name="traindataPositionY">位置坐标Y</string>
+    <string name="traindataUpload">上传</string>
+    <string name="uploadIndoorUrl">http://115.28.164.238/androidServer/location/uploadIndoorRecord</string>
+    <string name="uploadIndoorUrl1">http://115.28.164.238/androidServer/location/uploadIndoorRecord</string>
+    <string name="uploadNeighborUrl">http://115.28.164.238/androidServer/location/uploadNeighbors</string>
+    <string name="userCenter">用户信息</string>
+    <string name="userName">用户名</string>
+    <string name="userNameHint">请输入用户名</string>
+    <string name="userNameWarn">用户名错误，请重新输入</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

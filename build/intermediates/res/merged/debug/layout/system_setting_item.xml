@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/item_tv"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="6"
+        android:fontFamily="Light-italic"
+        android:gravity="center"
+        android:text="hhh"
+        android:textSize="18sp" />
+
+    <CheckBox
+        android:id="@+id/system_setting_checkBox"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center" />
+
+</LinearLayout>

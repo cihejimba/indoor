@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.googlebottomfragment.MainActivity" >
+
+    <FrameLayout
+        android:id="@+id/home_content"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/tab_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_border"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/txt_home"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:button="@null"
+            android:drawablePadding="0dp"
+            android:drawableTop="@drawable/tab_menu_home"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="@string/inspect"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="10sp" />
+
+        <RadioButton
+            android:id="@+id/txt_setting"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/tab_menu_bg"
+            android:button="@null"
+            android:drawablePadding="0dp"
+            android:drawableTop="@drawable/tab_menu_setting"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="@string/setting"
+            android:textColor="@drawable/tab_menu_text"
+            android:textSize="10sp" />
+    </RadioGroup>
+
+</LinearLayout>

@@ -1,0 +1,183 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:2:1-98:12
+	package
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:3:5-37
+	android:versionName
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:5:5-30
+		INJECTED from D:\javaworkspace\indoor\AndroidManifest.xml
+		INJECTED from D:\javaworkspace\indoor\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:4:5-28
+		INJECTED from D:\javaworkspace\indoor\AndroidManifest.xml
+		INJECTED from D:\javaworkspace\indoor\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:8:9-35
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:17:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:19:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.INTERNET
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:22:5-84
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:22:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:23:5-68
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:23:22-65
+uses-permission#android.permission.PACKAGE_USAGE_STATS
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:24:5-77
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:24:22-75
+application
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:26:5-96:19
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:29:9-41
+	android:allowBackup
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:27:9-35
+	android:icon
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:28:9-42
+	android:theme
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:30:9-40
+activity#com.bupt.indoorpostion.HomeActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:31:9-40:20
+	android:screenOrientation
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:34:13-49
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:33:13-45
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:32:13-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:38:27-74
+activity#com.bupt.indoorpostion.MainActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:41:9-44:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:42:13-63
+activity#com.bupt.indoorPosition.show.ShowBeacon
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:47:13-45
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:46:13-67
+activity#com.bupt.indoorpostion.RegisterActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:50:13-67
+activity#com.bupt.indoorpostion.SystemSettingActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:55:13-51
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:54:13-72
+activity#com.bupt.indoorpostion.LoginActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:59:13-42
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:58:13-64
+activity#com.bupt.indoorpostion.UserCenterActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:62:13-69
+activity#com.bupt.indoorpostion.TrainDataCollectionActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:65:9-68:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:67:13-46
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:66:13-78
+activity#com.bupt.indoorpostion.IndoorLocationActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:69:9-72:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:71:13-51
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:70:13-73
+activity#com.bupt.indoorpostion.AboutSystemActivity
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:73:9-76:20
+	android:label
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:75:13-48
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:74:13-70
+service#com.bupt.indoorpostion.ScanService
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:78:9-84:19
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:78:18-67
+intent-filter#com.bupt.indoorpostion.ScanService
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:79:13-83:29
+action#com.bupt.indoorpostion.ScanService
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:82:17-77
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:82:25-74
+service#com.baidu.location.f
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:85:9-89:19
+	android:enabled
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:87:13-35
+	android:process
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:88:13-38
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:86:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:91:9-93:56
+	android:value
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:93:13-53
+	android:name
+		ADDED from D:\javaworkspace\indoor\AndroidManifest.xml:92:13-52

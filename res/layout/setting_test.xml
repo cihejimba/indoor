@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bk"
+    android:clipToPadding="true"
+    android:orientation="horizontal"
+    android:paddingTop="20dp" >
+
+ 
+    <ListView
+        android:id="@+id/set_listView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ly_function_bar"
+        android:layout_below="@+id/ly_function_bar"
+        android:dividerHeight="3dp" >
+    </ListView>
+</RelativeLayout>

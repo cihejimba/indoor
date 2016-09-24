@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/centerName"
+        android:layout_alignBottom="@+id/centerName"
+        android:layout_marginLeft="44dp"
+        android:layout_toRightOf="@+id/centerName"
+        android:text="a"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/CenterCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/centerName"
+        android:layout_below="@+id/centerName"
+        android:layout_marginTop="20dp"
+        android:text="@string/companyName"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/CenterCompany"
+        android:layout_alignBottom="@+id/Name"
+        android:layout_alignLeft="@+id/Name"
+        android:text="b"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/province"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/centerProvince"
+        android:layout_alignRight="@+id/company"
+        android:text="c"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/centerCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/centerProvince"
+        android:layout_below="@+id/centerProvince"
+        android:layout_marginTop="20dp"
+        android:text="@string/city"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/centerCity"
+        android:layout_alignRight="@+id/province"
+        android:text="d"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/centerProvince"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CenterCompany"
+        android:layout_below="@+id/CenterCompany"
+        android:layout_marginTop="18dp"
+        android:text="@string/province"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="@string/logout"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@drawable/logout_button_shape" />
+
+    <TextView
+        android:id="@+id/centerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="97dp"
+        android:text="@string/userName"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

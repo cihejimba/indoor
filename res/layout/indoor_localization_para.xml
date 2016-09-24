@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alfa:"
+            android:layout_gravity="left"/>
+        <EditText 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/text_alfa"
+	    android:text="-76"
+	    android:layout_gravity="left"/>
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sigma:"
+            android:layout_gravity="left"/>
+        <EditText 
+	    android:layout_width="40dp"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/text_sigma"
+	    android:text="0"
+	    android:layout_gravity="left"/>
+        
+                
+       	<Button 
+       	    android:id="@+id/btn"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:text="submit"/>
+       	
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RSSI = TX + alfa*lg(d) + sigma"
+            android:layout_gravity="left"
+            android:id="@+id/text_dis"/>
+        
+        
+        <EditText 
+	    android:layout_width="40dp"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/text_di"
+	    android:text="0"
+	    android:layout_gravity="left"
+	    android:layout_marginTop="50dp"/>
+        
+       	<Button 
+       	    android:id="@+id/btn1"
+       	    android:layout_width="wrap_content"
+       	    android:layout_height="wrap_content"
+       	    android:text="submit"/>
+       	
+       	<TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calculated alfa=>"
+            android:layout_gravity="left"
+            android:id="@+id/text_alfa2"/>
+    </LinearLayout>
+	
+
+</FrameLayout>

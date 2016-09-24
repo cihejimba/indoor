@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\raw\\change1.wav",
+        "source": "D:\\javaworkspace\\indoor\\res\\raw\\change1.wav"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\raw\\change2.mp3",
+        "source": "D:\\javaworkspace\\indoor\\res\\raw\\change2.mp3"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\raw\\change.mp3",
+        "source": "D:\\javaworkspace\\indoor\\res\\raw\\change.mp3"
+    }
+]

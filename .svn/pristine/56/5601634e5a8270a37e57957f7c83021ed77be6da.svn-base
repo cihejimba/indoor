@@ -1,0 +1,101 @@
+package com.bupt.indoorpostion;
+
+import android.animation.AnimatorInflater;
+import android.animation.AnimatorSet;
+import android.animation.ObjectAnimator;
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Point;
+import android.os.Bundle;
+import android.view.Display;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class IndoorLocationActivity extends Activity {
+
+	private int width;
+	private int height;
+	private float density;
+	private int d=20;
+	private ImageView indoorMap;
+	private ImageView myLocation;
+	private Button startButton;
+	private Button stopButton;
+	private TextView textView;
+
+	private ObjectAnimator animX;
+	private ObjectAnimator animY;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.indoor_localization);
+
+		indoorMap = (ImageView) findViewById(R.id.map);
+		myLocation = (ImageView) findViewById(R.id.myLocation);
+		startButton = (Button) findViewById(R.id.start_buuton);
+		stopButton = (Button) findViewById(R.id.stop_button);
+		textView = (TextView) findViewById(R.id.showdetails);
+		width = getDeviceWidth(this);
+		height = getDeviceHeight(this);
+		density = getResources().getDisplayMetrics().density;
+		animX = ObjectAnimator.ofFloat(myLocation, "scaleX", 0.6f, 1f, 0.6f);
+		animX.setDuration(2000);
+		animX.setRepeatCount(Animation.INFINITE);
+		animX.setRepeatMode(Animation.REVERSE);
+		animY = ObjectAnimator.ofFloat(myLocation, "scaleY", 0.6f, 1f, 0.6f);
+		animY.setDuration(2000);
+		animY.setRepeatCount(Animation.INFINITE);
+		animY.setRepeatMode(Animation.REVERSE);
+		
+		startButton.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				textView.setText(width + " " + height+" "+density+" "+indoorMap.getWidth()+" "+indoorMap.getHeight());
+				//textView.setText(indoorMap.getX() + " " + indoorMap.getY()+" "+density+" "+x + " " + y);
+				myLocation.setX((float) (indoorMap.getWidth()*Math.random()-d*density/2));
+				myLocation.setY((float) (indoorMap.getHeight()*Math.random()-d*density/2));
+				animX.start();
+				animY.start();
+			}
+		});
+		stopButton.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				animX.end();
+				animY.end();
+			}
+		});
+	}
+
+	/**
+	 * 获取设备屏幕的宽
+	 * 
+	 * @param context
+	 * @return
+	 */
+	public static int getDeviceWidth(Activity context) {
+		Display display = context.getWindowManager().getDefaultDisplay();
+		Point p = new Point();
+		display.getSize(p);
+		return p.x;
+	}
+
+	/** 获取屏幕的高 */
+	public static int getDeviceHeight(Activity context) {
+		Display display = context.getWindowManager().getDefaultDisplay();
+		Point p = new Point();
+		display.getSize(p);
+		return p.y;
+	}
+
+}

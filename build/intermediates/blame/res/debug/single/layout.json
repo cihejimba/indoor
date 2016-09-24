@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\beacon_list_title.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\beacon_list_title.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\array_test.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\array_test.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\show_main.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\show_main.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\simple_item.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\simple_item.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\setting_test.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\setting_test.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\usercenter.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\usercenter.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\setting.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\setting.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\about_system.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\about_system.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\inspect.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\inspect.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\systemsetting.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\systemsetting.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\system_setting_item.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\system_setting_item.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\beacon_list_item.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\beacon_list_item.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\train_data_collection.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\train_data_collection.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\home_layout.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\home_layout.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\indoor_localization_para.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\indoor_localization_para.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\javaworkspace\\indoor\\build\\intermediates\\res\\merged\\debug\\layout\\indoor_localization.xml",
+        "source": "D:\\javaworkspace\\indoor\\res\\layout\\indoor_localization.xml"
+    }
+]

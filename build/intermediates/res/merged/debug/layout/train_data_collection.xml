@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/beaconTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/nearlyTV"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/nearlyTV"
+        android:text="MAC显示" />
+
+    <TextView
+        android:id="@+id/nearlyTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="53dp"
+        android:text="@string/traindataNearest"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/markET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_hintTV"
+        android:layout_alignBottom="@+id/input_hintTV"
+        android:layout_toRightOf="@+id/nearlyTV"
+        android:ems="10"
+        android:hint="@string/traindataMarkerHint" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/input_hintTV_X"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/input_hintTV"
+        android:layout_below="@+id/markET"
+        android:layout_marginTop="34dp"
+        android:text="@string/traindataPositionX"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/input_hintTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nearlyTV"
+        android:layout_below="@+id/nearlyTV"
+        android:layout_marginTop="30dp"
+        android:text="@string/traindataMarker"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/input_hintTV_Y"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/input_hintTV_X"
+        android:layout_below="@+id/input_hintTV_X"
+        android:layout_marginTop="29dp"
+        android:text="@string/traindataPositionY"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/inputXET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_hintTV_Y"
+        android:layout_alignBottom="@+id/input_hintTV_Y"
+        android:layout_toRightOf="@+id/nearlyTV"
+        android:ems="10"
+        android:hint="@string/traindataMarkerHint" />
+
+    <EditText
+        android:id="@+id/inputYET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input_hintTV_X"
+        android:layout_alignBottom="@+id/input_hintTV_X"
+        android:layout_toRightOf="@+id/nearlyTV"
+        android:ems="10"
+        android:hint="@string/traindataMarkerHint" />
+
+    <Button
+        android:id="@+id/collectionUpload"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/login_button_shape"
+        android:text="@string/traindataUpload" />
+
+    <Button
+        android:id="@+id/recordBTN"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/collectionUpload"
+        android:layout_alignLeft="@+id/collectionUpload"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/login_button_shape"
+        android:text="@string/traindataGet" />
+
+</RelativeLayout>
